@@ -1,0 +1,11 @@
+{
+  "name": "CoolCat",
+  "description": "Picture of my cool, lazy, weird cat",
+  "image": "ipfs://QmWxKKYmesNpcM3VbwqXUw6Vz9Re1MuEcsdYrVGXRjvVoT/0.jpeg",
+  "properties": {
+    "posture": "lying",
+    "location": "basket",
+    "toys": "",
+    "sleeping": "yes"
+  }
+}
