@@ -161,7 +161,7 @@ Also add the `count` function, we need it later on (seems to be missing in the f
 contract CoolCats is ERC721, ERC721URIStorage, Ownable {
 
     function count() public view returns (uint256) {
-      return _tokenIdCounter.current;
+      return _tokenIdCounter.current();
     }
 }
 ```
