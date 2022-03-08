@@ -33,6 +33,8 @@ Also create free accounts at:
   * [Loop through Existing NFTs](#loop-through-existing-nfts)
   * [Mint a new Token](#mint-a-new-token)
 * **Deploy**
+  * [Setup connection to Mumbai](#setup-connection-to-mumbai)
+  * [Deploy to Mumbai network](#deploy-to-mumbai-network)
 
 <br><br><br><br><br><br>
 
