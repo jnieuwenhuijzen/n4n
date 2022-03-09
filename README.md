@@ -16,6 +16,10 @@ Also create free accounts at:
 * [Pinata](pinata.cloud) for uploading content to IPFS
 * [Alchemy](https://www.alchemy.com/) for connecting to a public blockchain node
 
+Learn how to connect to a custom network in MetaMask
+
+* [Connecting Hardhat to Metamask](https://www.youtube.com/watch?v=FTDEX3S1eqU) - Check the video and maybe setup a custom network to localhost already. We will install hardhat later on. (and we will use chainId 1337)
+
 ## Table of contents
 
 * **Initial Setup**
