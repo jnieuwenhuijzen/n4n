@@ -13,7 +13,7 @@ Make sure to have the following packages installed:
 
 Also create free accounts at:
 
-* [Pinata](pinata.cloud) for uploading content to IPFS
+* [Pinata](https://pinata.cloud) for uploading content to IPFS
 * [Alchemy](https://www.alchemy.com/) for connecting to a public blockchain node
 
 Learn how to connect to a custom network in MetaMask
