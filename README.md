@@ -117,7 +117,7 @@ _\ \ | | | | | (_| | |  | |_  / /__| (_) | | | | |_| | | (_| | (__| |_
 ## Base ERC-721 Contract
 
 * Use [OpenZeppelin wizard](https://docs.openzeppelin.com/contracts/4.x/wizard) to create a mintable, auto-increment-ids, with URI Storage ERC721
-* Copy the contract to contracts directory, name it `MyNFT.sol`
+* Copy the contract to contracts directory, name it `CoolCats.sol`
 
 ## Ensure URIs are Unique
 
