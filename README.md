@@ -302,7 +302,7 @@ export default Home;
 
 ## Loop through Existing NFTs
 
-In the home screen, we use ethers.js to make a reference to the deployed contract. We request the total number of minted tokens, then create a loop to render a child component for each one.
+In the home screen, we use ethers.js to make a reference to the deployed contract. We request the total number of minted tokens, then create a loop to render a child component for each one. Replace the content of `Home.jsx` with the following (do not forget to replace the parameter `YOUR_DEPLOYED_CONTRACT_ADDRESS` with your deployment address):
 
 ```js
 import WalletBalance from './WalletBalance';
@@ -364,6 +364,8 @@ export default Home;
 
 ## Mint a new Token
 
+Next also replace the placeholder function `NFTImage()` in `Home.jsx` with the following function. Do not forget to replace the parameters `PINATA_CONTENT_ID` with the corresponding CID's you got from Pinata:
+
 ```js
 function NFTImage({ tokenId, getCount }) {
   const jsonContentId = 'PINATA_CONTENT_ID';
@@ -418,8 +420,6 @@ function NFTImage({ tokenId, getCount }) {
     </div>
   );
 }
-
-export default Home;
 ```
 
 <br><br><br><br><br><br>
