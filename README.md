@@ -6,7 +6,7 @@ Many thanks and credits to [Fireship](https://fireship.io/), based on Fireship's
 
 Make sure to have the following packages installed:
 
-* [NPM / Node.js](https://nodejs.org/en/download/)
+* [NPM / Node.js](https://nodejs.org/en/download/) Recommended node version v14 or v16. Optionally use node version manager nvm for [Windows](https://github.com/coreybutler/nvm-windows/releases) or [Mac / Linux](https://github.com/nvm-sh/nvm/blob/master/README.md)
 * Browser with [Metamask Extension](https://metamask.io/download/)
 * [Git](https://git-scm.com/downloads) If you want to download the prefab art
 * Your favourite IDE e.g. [VS Code](https://code.visualstudio.com/)
