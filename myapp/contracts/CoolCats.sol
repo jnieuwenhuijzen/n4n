@@ -20,7 +20,7 @@ contract CoolCats is ERC721, ERC721URIStorage, Ownable {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "ipfs://QmVR94LhrBSFDCQ7RCA6xgCdvD6Jb1iCmzkQBtTJF4fXZw/";
+        return "ipfs://<YOUR_JSON_DIRECTORY_CID_FROM_PINATA>/";
     }
 
     function payToMint(address to, string memory uri) public payable {
