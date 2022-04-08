@@ -1,9 +1,9 @@
 import Install from './components/Install';
-// import Home from './components/Home';
+import Home from './components/Home';
 
 function App() {
   if (window.ethereum) {
-    return 0; //<Home />;
+    return <Home />;
   } else {
     return <Install />
   }
