@@ -12,13 +12,13 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard, and replace "" with its key
-const ALCHEMY_API_KEY = "";
+const ALCHEMY_API_KEY = "<place your alchemy key here>";
 
 // Replace this private key with your Mumbai account private key
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Be aware of NEVER putting real Ether into testing accounts
-const MUMBAI_PRIVATE_KEY = "";
+const MUMBAI_PRIVATE_KEY = "<place your mumbai private key here - uncomment 'accounts' below>";
 // address: 0x
 
 /**
@@ -33,10 +33,10 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
-    // mumbai: {
-    //   url: `https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
-    //   chainId: 80001,
-    //   accounts: [MUMBAI_PRIVATE_KEY]
-    // }
+    mumbai: {
+       url: `https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
+       chainId: 80001,
+       // accounts: [MUMBAI_PRIVATE_KEY]
+    }
   }
 };
